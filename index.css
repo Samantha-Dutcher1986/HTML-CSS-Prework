@@ -1,0 +1,349 @@
+/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*General Stylings*/
+* {
+  background-color: #C9E9AF;
+}
+.header {
+  height: 75px;
+  background-color: #FFD6D8;
+  color: slategray;
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 2px solid blue; */
+}
+
+.row{
+  display: flex;
+  flex-flow: row;
+}
+
+.col1{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  width: 65%;
+  /* border: 2px solid blue; */
+}
+
+.col2{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  width: 10%;
+  /* border: 2px solid green; */
+}
+
+.topnav {
+  padding-left: 80%;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+}
+
+/* nav {
+  border: 2px solid red;
+} */
+
+nav a {
+  background-color: #adb2d3;
+  color: #694f53;
+  flex-flow: row nowrap;
+  text-decoration: none;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 4%;
+}
+
+nav a:hover {
+  background-color: #694f53;
+  color: #adb2d3;
+  border-radius: 10px;
+}
+
+h1 {
+  height: 50px;
+  font-family: "Leckerli One", cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  padding-top: 2%;
+  color: #694f53;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid yellow; */
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: darkslategray;
+  font-family: "Lucida Sans";
+  width: 60vw;
+  padding-left: 30px;
+  text-align: center;
+  /* justify-content: center;
+  border: 2px solid purple;
+  flex-basis: stretch; */
+}
+
+.intro p{
+  /* border: 2px solid orange; */
+  color: darkslategray;
+  font-weight: bold;
+  text-align: center;
+  /* padding-left: 30px; */
+  width: 61vw;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+date{
+  height: 10vh;
+  width: 61vw;
+  text-align: center;
+  /* border: 2px solid yellow; */
+  color: black;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.intro-img {
+  width: 62.5vw;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: darkslategray;
+  font-family: "Lucida Sans";
+  padding-left: 20px;
+  text-align: center;
+}
+
+.webdev-p {
+  color: darkslategray;
+  font-weight: bold;
+  text-align: center;
+  width: 61vw;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.webdev-img {
+  width: 62.5vw;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.me-img {
+  width: 160vw;
+  height: 50vh;
+  padding-left: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.my-imgs{
+  width: 25vw;
+  height: 10vh;
+}
+
+.my-imgs img{
+  width: 23vw;
+  height: 50vh;
+  padding-left: 25px;
+}
+
+.interesting-list{
+  justify-items: center;
+}
+
+h4{
+  color: darkslategray;
+  font-family: 'Lucida Sans';
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding-left: 140px;
+}
+
+.interesting-list p{
+  font-family: 'Lucida Sans';
+  color: darkslategray;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 25vw;
+  padding-left: 25px;
+}
+
+.fa{
+  padding: 15px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: center;
+  border-radius: 50%;
+}
+
+.fa:hover{
+  opacity: 0.7;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-pinterest{
+  background: #CB2027;
+  color: white;
+}
+
+.fa-linkedin{
+  background: #007BB5;
+  color: white;
+}
